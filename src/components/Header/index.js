@@ -1,14 +1,14 @@
 import style from "./Header.module.css"
 
-function Header(){
+ function Header(){
     return (
-        <Header className={style.Header}>
+        <header className={style.header}>
             <span>YasFlix</span>
             <nav>
                 <a href="#">Home</a>
                 <a href="#">Assistir</a>
             </nav>
-        </Header>
+        </header>
     )
 }
 
