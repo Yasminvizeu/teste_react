@@ -1,8 +1,8 @@
-import styles from "./Header.modules.css"
+import style from "./Header.module.css"
 
 function Header(){
     return (
-        <Header className={style.header}>
+        <Header className={style.Header}>
             <span>YasFlix</span>
             <nav>
                 <a href="#">Home</a>
