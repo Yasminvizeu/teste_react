@@ -7,7 +7,7 @@ const App = () => {
   return (
    <>
    <Header />
-   <Banner />
+   <Banner image="favoritos" />
    <Container> 
     <h1>Hello world!</h1>
     <p>Ola mundo estou aprendedo react js</p>
